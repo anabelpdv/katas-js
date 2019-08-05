@@ -10,8 +10,9 @@
 function fakeBin(x){
    return[...x].map(digit => +digit < 5 ? 0 : 1) .join("");
 }
+
 /*********************************** the best solution ***********************************/
 function fakeBin(x) {
-	//n is automatically converted to a number when compared to 5 which is an number
+	//n is automatically converted to a number when compared to 5 which is a number
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
