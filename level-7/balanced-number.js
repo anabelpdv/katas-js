@@ -30,12 +30,10 @@ let middleRight = -arr[middle];
     return 'Balanced';
   }else if(arr.length % 2 === 0){
     let middleLeft = -arr[middle-1];
-  
     return arr.splice(middle).reduce((a,b) => a + b,middleRight) === 
            arr.splice(-middle).reduce((a,b) => a + b,middleLeft) ? 
            'Balanced':'Not Balanced';
   }else{
-
     return arr.splice(middle).reduce((a,b) => a + b,middleRight) === 
             arr.splice(-middle).reduce((a,b) => a + b) ? 
             'Balanced':'Not Balanced';
