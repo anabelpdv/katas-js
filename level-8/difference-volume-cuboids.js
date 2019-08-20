@@ -1,5 +1,5 @@
 /****************************************************************************************
- * https: https://www.codewars.com/kata/58cb43f4256836ed95000f97
+ * https://www.codewars.com/kata/58cb43f4256836ed95000f97
  * Task:
  * In this simple exercise, you will create a program that will take two lists of integers, 
  * a and b. Each list will consist of 3 positive integers above 0, representing the dimensions 
